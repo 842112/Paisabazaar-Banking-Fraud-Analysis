@@ -1,0 +1,59 @@
+project link : https://colab.research.google.com/drive/1k9LVj1Vmg16jKSmsPwZQ_WoV_aKu7dB9?usp=sharing
+
+
+
+
+
+
+**Paisabazaar Banking Fraud Analysis – Summary**  
+
+ **Introduction**  
+Fraud detection in banking and financial services is a critical challenge, especially with the rise of digital transactions. This project focuses on **analyzing fraud patterns in banking transactions** using **Exploratory Data Analysis (EDA)** on Paisabazaar's dataset. The goal is to **identify fraudulent transactions, understand risk factors, and enhance fraud prevention strategies**.  
+
+
+ **Dataset Overview**  
+The dataset consists of **transactional records, customer details, and financial activities**, covering various attributes such as:  
+- **Customer Details:** Age, Occupation, Credit Score  
+- **Transaction Data:** Transaction Amount, Transaction Type, Frequency  
+- **Fraud Indicators:** Number of Fraudulent Transactions, Account Status  
+- **Financial History:** Loan Defaults, Payment Behavior  
+
+Understanding this data helps in detecting fraud patterns and preventing financial losses.  
+
+
+ **Data Cleaning & Preprocessing**  
+To ensure accurate analysis, the dataset was cleaned using the following steps:  
+ **Checked for missing and duplicate values** – Removed inconsistencies to maintain data quality.  
+ **Handled outliers** – Detected fraudulent transactions with unusually high amounts.  
+ **Categorized transaction types** – Grouped transactions based on risk levels (e.g., cash withdrawals, online payments).  
+
+
+ **Key Finding:** The dataset contained **suspicious patterns in high-value transactions** and **frequent withdrawals** from flagged accounts.  
+
+#### **Exploratory Data Analysis (EDA) & Insights**  
+EDA was conducted to explore fraud trends and risk factors.  
+
+
+ **1. Univariate Analysis**  
+- **Transaction Amount Distribution:** Fraudulent transactions tend to be of **higher amounts** compared to legitimate transactions.  
+- **Customer Credit Scores:** Fraud is more frequent among **customers with poor credit scores**.  
+- **Transaction Frequency:** Fraudulent accounts show **multiple small transactions before a large withdrawal**.  
+
+ **Insight:** Fraudsters often use **structured patterns** to manipulate transactions before making a **major fraudulent transfer**.  
+
+
+ **2. Bivariate & Correlation Analysis**  
+- **High transaction amounts & fraud risk:** Higher amounts are linked to **greater fraud probability**.  
+- **Frequent delayed payments & fraud:** Customers with a history of **missed payments** are more likely to be flagged for fraud.  
+- **Account age & fraud risk:** **Newly created accounts** show a **higher fraud rate** compared to long-standing accounts.  
+
+ **Insight:** **New accounts, high-value transactions, and poor credit scores** are strong indicators of fraud risk.  
+
+
+ **Key Business Insights & Fraud Prevention Strategies**  
+Based on the findings, the following recommendations can help reduce fraud:  
+
+ **Real-time Fraud Monitoring:** Implement **AI-based fraud detection** to flag suspicious transactions instantly.  
+ **Customer Risk Profiling:** Assign **risk scores** based on **transaction history, credit score, and payment behavior**.  
+ **Multi-Factor Authentication (MFA):** Strengthen security by requiring **additional verification** for high-risk transactions.  
+ **Transaction Limits & Alerts:** Set **threshold limits** on transactions and send **instant alerts** for unusual activities.  
